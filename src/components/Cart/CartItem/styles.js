@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
   media: {
-    height: 260,
+    height: 200,
   },
   cardContent: {
     display: 'flex',
@@ -15,4 +15,7 @@ export default makeStyles(() => ({
     display: 'flex',
     alignItems: 'center',
   },
+  btn: {
+    backgroundColor: "#387c6d"
+  }
 }));
